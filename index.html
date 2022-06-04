@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><body style="background-color:beige">
+    <h1><b>Job Application Form</b></h1></hr>
+       <form>
+           <fieldset><legend><b>Personal Information</b></legend>
+           <label for="Candidate Name"><b>Candidate Name:</b></label>
+           <input type="text" name="name" required id="name" maxlenght="15"></br></br>
+           <label for="date"><b>DOB:</b></label>
+           <input type="date" name="date" id="date" maxlenght="6"></br></br>
+           <b>Gender:</b>
+           <input type="radio" name="Gender" value="Male">Male </input>
+           <input type="radio" name="Gender" value="Female">Female</input></br>
+       </br>
+       <b>CNIC:</b><input type="number" name="ID" maxlenght="13"></br></br>
+           <label for="addressinput"><b>Current Address</b><b>:</b></label>
+           <input type="text" name="Current Address" id="addressinput" maxlenght="20" required></br></br>
+           <label for="city"><b>City:</b></label>
+           <select name="City"><option value="Karachi">Karachi</option>
+           <option value="Multan">Multan</option>
+           <option value="Lahore">Lahore</option>
+           <option value="Islamabad">Islamabad</option>
+           <option value="Faisalabad">Faisalabad</option></select></br> </br>
+           <label for="phonenumberinput"><b>Phone Number</b><b>:</b></label>
+           <input type="number" name="Phone Nmber" placeholder="0000" id="number" required></br></br>
+           <b>Domicile:</b><input type="text" name="District" placeholder="District"></br> </br>
+    
+           </fieldset></br>
+           <P><b>Education:</b>
+           <table border="1"><tr><th scope="row"><input type="text" name="Matric" required placeholder="Matric"></th>
+               <td><input type="text" name="Institute" placeholder="Institue Name">
+   
+           </td><td><input type="number" name="Year" placeholder="Passing Year"></td></tr>
+       <tr><th scope="row"><input type="text" name="Inter" required placeholder="Inter"></th>
+       <td><input type="text" name="Institute" placeholder="Institute name"></td>
+   <td><input type="number" name="Year" placeholder="Passing Year"></td></tr><tr>
+   <th scope="row"><input type="text" name="Bachelor" required placeholder="Bachelor"></th>
+   <td><input type="text" name="Institute" placeholder="Institute"></td>
+   <td><input type="number" name="Year" required placeholder="Passing Year"></td></tr></table></P>
+   <b>WORK ECPERIENCE:</b>
+   <table><tr><th scope="row"><input type=""text" name="Company" placeholder="Comapany name"></th>
+   <td><input type="text" name="Post" placeholder="Post"></td>
+       <td><input type="text" name="Year" placeholder="Duration"></td></tr></table></br></br>
+           <fieldset><legend><b>Other Details</b></legend>
+           <p>Position Applied<b>:</b>
+           <select name="Positon Applied">
+               <option value="Marketing Specialist">Marketing Specialist</option>
+               <option value="Sales Manager">Sales Manager</option>
+               <option value="Product Lead">Product Lead</option>
+               <option value="Developer">Developer</option></select>
+           <p><b>How did you hear about us?</b></p>
+           <select name="source"><option value="social media">Social Media</option>
+           <option value="linkdin">linkdin</option>
+       <option value="family/friends">family/friends</option>
+   <option value="Company Website">Company Website</option></select></br>
+   <p><b>Why you choose this company:</p></b>
+   <textarea name="Comments" maxlenght="150"rows="3" col="3" placeholder="your remarks"></textarea>
+   
+   
+   
+   <p><b>Upload Your Resume:</b></p>
+   <input type="file"  value="browse" required>
+   
+   <input type="submit" value="Upload" id="Upload">
+           
+           </fieldset></br></br>
+           <fieldset><legend><b>Submisiion</b></legend></br>
+           
+           <label for="email"><b>Email Address:</b></label>
+           <input type="email" name="email" id="email" required></br></br>
+           <input type="submit" name="submit"></fieldset>
+   </form>
+   
+       
+   </body>
+   </html>
+    
+</body>
+</html>
